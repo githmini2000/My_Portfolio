@@ -22,6 +22,7 @@
 .desktopMenuListItem{
    margin: 1rem;
    cursor: pointer;
+   font-weight: bold;
 }
 
 .desktopMenuListItem:hover{
@@ -37,9 +38,11 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    width: 6.5rem;
+    width: 7rem;
     height: 2rem;
-   border-radius: 2rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    
 }
 
 
@@ -47,5 +50,6 @@
     object-fit: cover;
     height: 1rem;
     width: 1rem;
+    margin-right: 5px; 
 
 }
