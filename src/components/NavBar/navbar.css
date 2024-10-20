@@ -1,7 +1,7 @@
 .navbar{
     height: 5rem;
     width: 100vw;
-    max-width:75 rem;
+    max-width: 86rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display:flex;
@@ -15,14 +15,15 @@
 
 .logo{
     object-fit:cover;
-    height:3rem;
+    height:4rem;
     width:4rem;
 }
 
 .desktopMenuListItem{
    margin: 1rem;
    cursor: pointer;
-   font-weight: bold;
+   font-weight: 400;
+   font-size: 20px;
 }
 
 .desktopMenuListItem:hover{
