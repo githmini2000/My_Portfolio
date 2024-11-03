@@ -1,0 +1,45 @@
+#contactPage{
+    margin: 0 auto;
+    min-height: calc(100vh-4rem);
+    width:60vw;
+    max-width: 50rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+
+}
+.contactPageTitle{
+    margin-bottom:1rem;
+    font-size: 3rem; 
+    text-align: center;
+}
+.clientDesc{
+    font-weight:300;
+    font-size:1rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 45rem;
+  
+    
+   
+}
+.clientImgs{
+margin:1rem 0;
+display: flex;
+flex-wrap: wrap;
+justify-content:center; 
+gap: 0.2rem;
+    
+}
+.clientImg{
+    width: 12%;
+    min-width:7rem;
+    max-width: 12rem;
+    margin: 0.25rem;
+    border: 1px solid #ffffff;
+  
+}
+
