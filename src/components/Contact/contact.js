@@ -23,9 +23,9 @@ const Contact = () => {
            </div>
         </div>
           
-        <div id='contact'>
+        <div className='contact' id='contact'>
            <h1 className='contactPageTitle'>Contact Me</h1>
-           <span className='contactDesc'>Please fill out the form below to discuss any work opportunities.</span>
+           <p className='contactDesc'>Please fill out the form below to discuss any work opportunities.</p>
            <form className='contactForm'>
                <input type="text" className='name' placeholder="your Name"/>
                <input type="email" className='email' placeholder="your Email"/>
@@ -37,21 +37,11 @@ const Contact = () => {
                       <img src={linkedin}  alt="LinkedIn" className='link'/>
                       <img src={youtube}  alt="Youtube" className='link'/>
 
-
-
                </div>
+             </form>
+         </div>
 
-
-
-           </form>
-        </div>
-
-
-
-
-
-
-    </section>
+   </section>
   )
 }
 

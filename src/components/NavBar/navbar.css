@@ -55,6 +55,12 @@
     margin-right: 5px; 
 
 }
+.active{
+    color:rgb(136, 4, 83);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid;
+
+}
 @media screen and (max-width: 840px) {
 
 }
